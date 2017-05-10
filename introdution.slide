@@ -127,6 +127,8 @@ obs: Dentro do workspace deve conter os diretórios bin, src, pkg
 
 * Struct
 
+.play code/struct.go
+
 * Interfaces
 
 * Tratamento de erros
