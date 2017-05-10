@@ -39,15 +39,19 @@ https://github.com/michelaquino
 - Legível
 - Compilação rápida
 
+* Observações
+
+- Linguagem imperativa _like_ POO
+- Linguagem estática / compilada
+- Fortemente tipada
+
 * Porque usar Go?
 
-- Linguagem estática
-- Leve (usa pouca memória)
+- Leve (usa poucos recursos)
 - Performática (15000 req/s em uma máquina 1 core e 256MB de memória)
 - Trabalhar com concorrência é fácil
 - Compilação extremamente rápida
 - Garbage collector
-- Fortemente tipada
 
 * Quem usa?
 
@@ -128,6 +132,10 @@ obs: Dentro do workspace deve conter os diretórios bin, src, pkg
 * Struct
 
 .play code/struct.go
+
+* Métodos
+
+.play code/methods.go
 
 * Interfaces
 
