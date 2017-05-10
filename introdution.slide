@@ -139,7 +139,19 @@ obs: Dentro do workspace deve conter os diretórios bin, src, pkg
 
 * Interfaces
 
-* Tratamento de erros
+.play code/interfaces.go
+
+* Tratamento de erros 1/2
+Erro em Go é uma interface builtin 
+
+- https://golang.org/pkg/builtin/#error
+
+.code code/error_interface
+
+* Tratamento de erros 2/2
+
+.play code/errors.go
+
 
 * Panic
 - panic: Lança um erro em tempo de execução
@@ -147,8 +159,6 @@ obs: Dentro do workspace deve conter os diretórios bin, src, pkg
 * Recover
 - recover: recupera a mensagem de panic disparada 
 
-
-* Polimorfismo
 
 * Goroutines
 
