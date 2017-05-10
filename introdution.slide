@@ -65,32 +65,55 @@ https://github.com/michelaquino
 
 * Montando o ambiente
 
-$ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
-$ export GOPATH=$HOME/<seu diretório / workspace>
-$ export GOBIN=/usr/local/go/bin/
-$ export PATH=$PATH:$GOBIN
+.code code/config_environment
 
 obs: Dentro do workspace deve conter os diretórios bin, src, pkg
+
+* Sintaxe básica
 
 * Hello World
 
 .play code/hello_world.go
 
-* Sintaxe básica
-
 * Variáveis e constantes
 
-* Array, Slice, Map
+.play code/variables_and_constants.go
+
+* Array
+
+.play code/array.go
+
+* Slice
+
+.play code/slice.go
+
+* Map
+
+.play code/map.go
 
 * Estrutura de controle IF
 
+.play code/if.go
+
 * Estrutura de controle SWITCH
 
-* Estrutura de repetição FOR
+.play code/switch.go
+
+* Estrutura de repetição FOR 1/2
+
+.play code/for1.go
+
+* Estrutura de repetição FOR 2/2
+
+.play code/for2.go
 
 * Funções
 
+.play code/functions.go
+
 * Closure
+
+.play code/closure.go
 
 * Tratamento de erros
 

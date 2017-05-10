@@ -1,0 +1,4 @@
+$ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+$ export GOPATH=$HOME/<seu diretório / workspace>
+$ export GOBIN=/usr/local/go/bin/
+$ export PATH=$PATH:$GOBIN
