@@ -123,6 +123,8 @@ obs: Dentro do workspace deve conter os diretórios bin, src, pkg
 
 * Ponteiros
 
+.play code/pointers.go
+
 * Struct
 
 * Interfaces
