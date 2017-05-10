@@ -115,19 +115,26 @@ obs: Dentro do workspace deve conter os diretórios bin, src, pkg
 
 .play code/closure.go
 
-* Tratamento de erros
-
 * Defer
 
-* Panic
+Última ação a ser executada antes do return ou fim do contexto
 
-* Recover
+.play code/defer.go
 
 * Ponteiros
 
 * Struct
 
 * Interfaces
+
+* Tratamento de erros
+
+* Panic
+- panic: Lança um erro em tempo de execução
+
+* Recover
+- recover: recupera a mensagem de panic disparada 
+
 
 * Polimorfismo
 
