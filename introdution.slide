@@ -152,13 +152,11 @@ Erro em Go é uma interface builtin
 
 .play code/errors.go
 
-
-* Panic
+* Panic, Recover
 - panic: Lança um erro em tempo de execução
+- recover: recupera a mensagem de panic disparada
 
-* Recover
-- recover: recupera a mensagem de panic disparada 
-
+.play code/panic_recover.go
 
 * Goroutines
 
