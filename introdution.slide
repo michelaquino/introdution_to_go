@@ -1,0 +1,115 @@
+Introdução à linguagem Go (golang)
+
+Michel Aquino
+globo.com
+michel.has@gmail.com
+https://github.com/michelaquino
+
+* Go
+
+.image images/mascot.png
+
+.image images/google.png
+
+* História
+
+- Projeto interno do Google iniciado em 2007
+- Lançado como projeto de código aberto em 2009
+- Versão 1 lançada em 2012
+
+* Criadores
+
+.image images/creators.png
+
+- Robert Griesemer (V8 JavaScript engine, Java HotSpot)
+- Rob Pike (UTF-8, Unix)
+- Ken Thompson (UTF-8, B, Unix)
+
+* Motivação
+
+- Longos períodos de compilação 
+- Dificuldade de escalar o desenvolvimento de grandes aplicações
+- Programação concorrente custosa
+
+* Premissa
+
+- Open Source (https://github.com/golang)
+- Simples
+- Performática
+- Legível
+- Compilação rápida
+
+* Porque usar Go?
+
+- Linguagem estática
+- Leve (usa pouca memória)
+- Performática (15000 req/s em uma máquina 1 core e 256MB de memória)
+- Trabalhar com concorrência é fácil
+- Compilação extremamente rápida
+- Garbage collector
+- Fortemente tipada
+
+* Quem usa?
+
+- Globo.com
+- Heroku
+- Github
+- Digital Ocean
+- Docker
+- Uber
+- Dropbox
+- Twitter
+- Facebook
+- Google
+- várias outras...
+
+* Montando o ambiente
+
+$ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+$ export GOPATH=$HOME/<seu diretório / workspace>
+$ export GOBIN=/usr/local/go/bin/
+$ export PATH=$PATH:$GOBIN
+
+obs: Dentro do workspace deve conter os diretórios bin, src, pkg
+
+* Hello World
+
+.play code/hello_world.go
+
+* Sintaxe básica
+
+* Variáveis e constantes
+
+* Array, Slice, Map
+
+* Estrutura de controle IF
+
+* Estrutura de controle SWITCH
+
+* Estrutura de repetição FOR
+
+* Funções
+
+* Closure
+
+* Tratamento de erros
+
+* Defer
+
+* Panic
+
+* Recover
+
+* Ponteiros
+
+* Struct
+
+* Interfaces
+
+* Polimorfismo
+
+* Goroutines
+
+* Channels
+
+* Próximos passos
