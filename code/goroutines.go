@@ -6,11 +6,9 @@ import (
 )
 
 func task(name string) {
-	i := 0
 	for {
-		fmt.Println("Executando task ", name, " - ", i)
+		fmt.Println("Executando task ", name)
 		time.Sleep(time.Second)
-		i++
 	}
 }
 

@@ -164,4 +164,6 @@ Erro em Go é uma interface builtin
 
 * Channels
 
+.play code/channel.go
+
 * Próximos passos
