@@ -5,9 +5,9 @@ import (
 	"fmt"
 )
 
-var ErrEmptyData = errors.New("The data to create is empty")
+var ErrEmptyData = errors.New("The data to save is empty")
 
-func createOnDatabase(dataToCreate string) error {
+func saveOnDatabase(dataToCreate string) error {
 	if dataToCreate == "" {
 		return ErrEmptyData
 	}
@@ -16,8 +16,8 @@ func createOnDatabase(dataToCreate string) error {
 }
 
 func main() {
-	if err := createOnDatabase(""); err != nil {
-		fmt.Println("Falha ao criar no banco: ", err)
+	if err := saveOnDatabase(""); err != nil {
+		fmt.Println("Falha ao salvar no banco de dados: ", err)
 		return
 	}
 
