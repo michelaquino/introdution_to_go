@@ -167,3 +167,16 @@ Erro em Go é uma interface builtin
 .play code/channel.go
 
 * Próximos passos
+
+.link https://golang.org/doc/effective_go.html Effective Go
+.link http://tour.golang.org/#1 A Tour of Go
+.link https://gobyexample.com/ Go by Example
+.link https://invite.slack.golangbridge.org/ Canal no Slack
+.link https://groups.google.com/forum/#!forum/golang-brasil Grupo no Google Groups
+
+Livros 
+
+.link http://www.casadocodigo.com.br/products/livro-google-go 
+.link https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781
+.link https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440
+
