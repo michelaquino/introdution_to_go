@@ -160,6 +160,8 @@ Erro em Go é uma interface builtin
 
 * Goroutines
 
+.play code/goroutines.go
+
 * Channels
 
 * Próximos passos
