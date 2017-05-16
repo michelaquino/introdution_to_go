@@ -14,6 +14,6 @@ func main() {
 		fmt.Printf("Chave %s do mapa valor: %d\n", name, age)
 	}
 
-	delete(people, "wilson")
-	fmt.Printf("Posição não alocada: %d\n", people["wilson"])
+	delete(people, "Jose")
+	fmt.Printf("Posição não alocada: %d\n", people["Jose"])
 }

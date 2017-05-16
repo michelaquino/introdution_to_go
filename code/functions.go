@@ -8,7 +8,7 @@ func add(x int, y int) int {
 }
 
 // exemplo de função que retorna mais que um valor
-func Invert(x int, y int) (int, int) {
+func Invert(x, y int) (int, int) {
 	return y, x
 }
 
