@@ -1,4 +1,4 @@
-# Intrudution to Go language programming
+# Intruduction to Go language programming
 ## Execute the slides
 1 - Install Go and configure the workspace - https://golang.org/doc/install
 
